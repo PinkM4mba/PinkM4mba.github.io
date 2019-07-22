@@ -1,0 +1,147 @@
+/* All the Divs */
+\.title {
+	filter: brightness(0.6);
+}
+
+
+
+.button {
+	height: 40vh;
+	width: auto;
+}
+
+.title img {
+	width: 100vw;
+	height: auto;
+	
+}
+.games{
+	display: flex;
+	justify-content: center;
+}
+.navbar {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 99;
+	background-color: rgb(0, 0, 0, 0.7);
+}
+
+.bottombar {
+	display: flex;
+	justify-content: center;
+	background-color: rgb(0, 0, 0, 0.5);
+	
+}
+
+.bottombar a {
+	font-size: 30px;
+	margin: 30px 5px 5px 30px;
+}
+
+.bottombar a:hover {
+ color: hotpink;
+}
+/* All Buttons */
+img.button {
+	display: inline-block;
+	transition: 0.3s ease;
+}
+
+img.button:hover {
+	border: solid 2px #EC4387;
+	transform: scale(1.2, 1.2);
+}
+
+img.button {
+	width: 400px;
+	height: auto;
+	object-fit: cover;
+	margin: 10px 20px 20px 10px;
+}
+
+
+/*Text*/
+h1{
+    font-size: 200px;
+    font-family: Constantia, Lucida Bright, DejaVu Serif, Georgia, serif;
+    width: 100%;
+	position: absolute;
+	z-index: 99;
+	text-align: center;
+	background: -webkit-linear-gradient(aqua, hotpink);
+  	-webkit-background-clip: text;
+ 	-webkit-text-fill-color: transparent;
+}
+
+h2{
+    color: white;
+    font-size: 50px;
+	text-align: center;
+}
+h3{
+    width: 45%;
+    margin: 80px;
+    background: none;
+	color: white;
+	top : 25vh;
+	float: right; 
+}
+
+
+h4{
+    background: none;
+	font-size: 80px; 
+	margin:50px;
+	color: white;
+	max-width: 50%;
+}
+
+
+html, body {
+ 	background-color: pink;
+ 	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+/*Tags*/
+a {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+ul {
+	list-style: none;
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+
+
+
+
+li {
+	display: inline-block;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	float: right;
+	color: white;
+	font-weight: 300;
+}
+
+li:hover,  li a:hover {
+	color: hotpink
+}
+
+
+
+
+
+
+
+ 
